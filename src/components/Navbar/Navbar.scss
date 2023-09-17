@@ -1,0 +1,51 @@
+
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 7rem;
+    padding-block: 1rem;
+    // position: fixed;
+    top: 0;
+    width: 100vw;
+    h1{
+        font-size: 3rem;
+        position: relative;
+        .underline_div{
+            width: 100%;
+            position: absolute;
+            bottom: -1rem;
+            height: .6rem;
+            border-radius: 1rem;
+            background-color: white;
+        }
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 1.5rem;
+        font-size: 1.5rem;
+        li {
+            padding: 1rem;
+            border-radius: 1rem;
+            font-weight: 500;
+            transition: all 250ms;
+        &:hover{
+            background-color: white;
+            color: black;
+            cursor: default;
+        }
+        } 
+    }
+}
+
+
+.uni_h1{
+    color: white;
+    font-size: 3rem;
+    padding-inline: 7rem;
+    margin-top: 8rem;
+}
